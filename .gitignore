@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env/
+ENV/
+
+# Environment variables (your secret keys — never upload these)
+.env
+.env.local
+.env.production
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (large files GitHub can't handle)
+*.csv
+*.xlsx
+*.zip
+*.tar
+*.gz
+*.h5
+*.pkl
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.suo
+*.user
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
