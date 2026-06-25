@@ -26,6 +26,15 @@ with slight lag during sharp market movements
 - **Best Result:** Logistic Regression — 86.15% CV Accuracy | AUC: 0.90
 - **Key Finding:** Chest pain type, maximum heart rate, and thalassemia are the strongest predictors of heart disease risk
 
+### Task 4: General Health Query Chatbot
+- **Objective:** Build a chatbot that answers general health queries
+  using a real LLM API with prompt engineering
+- **Model:** LLaMA 3.1 8B via Groq API
+- **Approach:** Prompt engineering to shape medical assistant tone
+  and safety filters to block harmful queries
+- **Key Finding:** A well-designed system prompt transforms a general
+  LLM into a domain-specific health assistant without any model training
+  
 ### Task 5: Mental Health Support Chatbot
 - **Objective:** Fine-tune a language model to provide empathetic responses for mental health support
 - **Dataset:** Mental Health Counseling Conversations (HuggingFace)
